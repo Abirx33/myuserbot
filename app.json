@@ -9,9 +9,9 @@
     "telegram-fridaybot",
     "productivity"
   ],
-  "repository": "https://github.com/starkgang/FridayUserbot",
-  "website": "starkgang.ml",
-  "success_url": "t.me/FridayOT",
+  "repository": "https://github.com/Abirx33/myuserbot",
+  "website": "https://www.abirx33.gq",
+  "success_url": "t.me/abirx33",
   "stack": "container",
   "env": {
     "ENV": {
@@ -26,23 +26,23 @@
       "description": "Get this value from my.telegram.org! Please do not steal",
       "value": ""
     },
-    "NOSPAMPLUS_TOKEN": {
-      "description": "Your Token From @NospamPlusBot",
+    "G_DRIVE_CLIENT_ID": {
+      "description": "Your Gdrive Client ID.",
       "value": "",
       "required": false
     },
-    "LOAD_OTHER_PLUGINS": {
-      "description": "Do You Wish To Load Spammy / Official Plugins?",
-      "value": "False"
+    "G_DRIVE_CLIENT_SECRET": {
+      "description": "Your Gdrive Client Secret.",
+      "value": ""
     },
-    "SUDO_USERS": {
-      "description": "Enter A User Id Which You Would Like to Use To Control Sudo. Don't Give Your Own ID Or ID Of Users You Don't Trust.",
+    "GDRIVE_FOLDER_ID": {
+      "description": "Enter Your Gdrive Folder ID",
       "value": "",
       "required": false
     },
     "PRIVATE_GROUP_ID": {
       "description": "A Group ID Where You Want To Log Important Logs.",
-      "value": ""
+      "value": "-"
     },
     "STRING_SESSION": {
       "description": "Get From Repl.run Or Run Locally",
@@ -71,7 +71,7 @@
     },
     "TZ": {
       "description": "Required for Correct Time on autopic",
-      "value": "Asia/Kolkata",
+      "value": "Asia/Dhaka",
       "required": false
     }
   },
